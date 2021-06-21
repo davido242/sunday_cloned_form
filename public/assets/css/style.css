@@ -1,3 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body{
   background: navy;
+  color: #fff;
+}
+.container-wrap{
+  display: flex;
+  flex-direction: column;
+  background: grey;
+  text-align: center;
+  height: 100vh;
+}
+.first-child{
+  background: #91982a;
+  height: 20vh;
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px;
+}
+.wrap-2{
+  display: flex;
+}
+.Snd-child{
+  width: 30%;
+  margin: 0 auto;
+  background: #4c0606;
+  flex-wrap: wrap;
+  height: 24px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.wrap-3{
+  margin-top: 10px;
+}
+.filed{
+  height: 5em;
+  padding: 2em 0;
 }
